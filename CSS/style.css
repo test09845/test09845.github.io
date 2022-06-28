@@ -1,0 +1,274 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+	font-size: 20px;
+	font-family: "Noto Serif";
+	
+}
+
+.container {
+	max-width: 1030px;
+	margin: 0px auto;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+@media (max-width:991.98px) {
+	.container{
+		max-width: 75%;
+	}
+}
+
+@media (max-width:767.98px) {
+	.container{
+		max-width: 56%;
+		margin: 20px auto;
+	}
+}
+
+@media (max-width:575.98px) {
+	.container{
+		min-width: 300px;
+		margin: 10px auto;
+		font-size: 16px;
+	}
+	.header_img{
+		flex-direction: center;
+		max-width: 60%;
+		max-height: 60%;
+		top: 40px;
+	}
+	.title1{
+		text-align: center;
+	}
+	.text1{
+		text-align: center;
+	}
+	.down{
+		flex-direction: column;
+	}
+	.down .contact_text{
+		align-self: center;
+	}
+	.down .gate_img{
+		align-self: center;	
+	}
+}
+
+.header {
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 545px;
+	background-color: #959C9A;
+}
+
+.header_img {
+	position: relative;
+	width: 505px;
+	height: 620px;
+	top: 70px;
+	margin-left: 0px;
+	float: left;
+}
+
+.header_text {
+	position: relative;
+	width: 462px;
+	height: 328px;
+	right: 0px;
+	top: 161px;
+	bottom: 56px;
+	display: flex;
+	align-items: center;
+	float: margin-left;
+	left: 63px;
+}
+
+.title {
+	font-size: 32px;
+	line-height: 43.58px;
+	font-weight: 500;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+.title1{
+	font-size: 32px;
+	line-height: 43.58px;
+	font-weight: 500;
+	align-items: left;
+	text-transform: uppercase;
+}
+
+.text {
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 27px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-top: 43px;
+	
+}
+
+.text1 {
+	align-items: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.down{
+	position: relative;
+	width: 100%;
+	min-height: 349px;
+	float: margin-right;
+	margin-right: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.main {
+	padding-top: 0px;
+	padding-bottom: 65px;
+}
+
+.about{
+	position: relative;
+	width: 295px;
+	height: 66px;
+	margin-right: 0px;
+	top: 40px;
+}
+
+.ab_text{
+	position: relative;
+	width: 700px;
+	height: 290px;
+	margin-top: 185px;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	float: margin-right;
+	margin-right: 0;
+}
+.about_scr{
+	position: relative;
+	float: right;
+	
+}
+.about_img img{
+	position: relative;
+	margin-top: 160px;
+	width: 290px;
+	height: 290px;
+	float: right;	
+}
+
+.gate_img{
+	position: relative;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 525px;
+	height: 349px;
+	float: right;
+}
+
+.table{
+	position: relative;
+	width: 100%;
+	margin: 40px auto;
+	border-collapse: collapse;
+}
+
+.table thead{
+	text-align: center;
+	font-size: 21px;
+	text-transform: uppercase;
+	border: 2px solid #959C9A;
+}
+
+.table tbody{
+	text-align: center;
+}
+
+.table td:not(.td_2){
+	padding: 8px 15px;
+}
+
+.td_2{
+	text-align: left;
+	padding: 8px 30px;
+}
+
+.table td{
+	border: 1px solid #959C9A;
+}
+.table tr:hover{
+	background-color: #dcdede;
+	transition: all 0.4s;	
+}
+
+.table_scroll{ overflow-x: auto;
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 65px;
+	left: 0;
+	bottom: 0;
+	background-color: #959C9A;
+}
+
+.icons{
+	position: relative;
+	width: 205px;
+	height: 65px;
+	margin: 0 0 0 -102.5px;
+	left: 50%;
+
+}
+
+.icons img{
+	width: 65px;
+	height: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
