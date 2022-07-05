@@ -60,7 +60,8 @@ body {
 	.ab_text{
 		min-width: 320px;
 		text-align: center;
-		order: 2; 	
+		order: 2; 
+		margin-bottom: 40px;
 	}
 	.about_img img{
 		max-width: 170px;
