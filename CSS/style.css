@@ -34,8 +34,56 @@ body {
 
 @media (max-width:767.98px) {
 	.container{
-		max-width: 56%;
-		margin: 20px auto;
+		min-width: 500px;
+		margin: 10px auto;
+		font-size: 18px;
+	}
+	.header_text {
+		text-align: center;
+		align-self: center;
+		margin: 0px auto;
+	}
+	.header_img img{
+		max-width: 500px;
+		height: auto;
+		top: 20px;
+	}
+	.about_main{
+		flex-direction: column;
+	}
+	.about_scr{
+		order: 1;
+		margin: 0 auto;
+		margin-top: 280px;
+	
+	}
+	.ab_text{
+		min-width: 360px;
+		text-align: center;
+		order: 2; 
+		margin-bottom: 40px;
+		
+	}
+	
+	.about_img img{
+		max-width: 170px;
+		height: auto;
+		margin-left: 75px;
+	}
+	.title1{
+		text-align: center;
+	}
+	.text1{
+		text-align: center;
+	}
+	.bottom{
+		flex-direction: column;
+	}
+	.bottom .contact_text{
+		align-self: center;
+	}
+	.bottom .gate_img{
+		align-self: center;		
 	}
 }
 
