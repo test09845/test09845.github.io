@@ -66,6 +66,7 @@ body {
 	.about_img img{
 		max-width: 170px;
 		height: auto;
+		margin-left: 75px;
 	}
 	.title1{
 		text-align: center;
