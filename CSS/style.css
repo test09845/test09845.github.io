@@ -8,24 +8,28 @@ body {
 	height: 100%;
 	font-size: 20px;
 	font-family: "Noto Serif";
-	
+	text-align: justify;
 }
-
 .container {
 	max-width: 1030px;
 	margin: 0px auto;
 }
-
 .wrapper {
 	position: relative;
 	min-height: 100%;
 	overflow: hidden;
 }
 
+.main {
+	padding-top: 0px;
+	margin-bottom: 65px;
+}
+
+
 @media (max-width:991.98px) {
 	.container{
 		max-width: 75%;
-	}
+	}	
 }
 
 @media (max-width:767.98px) {
@@ -37,15 +41,30 @@ body {
 
 @media (max-width:575.98px) {
 	.container{
-		min-width: 300px;
+		min-width: 320px;
 		margin: 10px auto;
 		font-size: 16px;
 	}
-	.header_img{
-		flex-direction: center;
-		max-width: 60%;
-		max-height: 60%;
-		top: 40px;
+	.header_img img{
+		max-width: 320px;
+		height: auto;
+		top: 20px;
+	}
+	.about_main{
+		flex-direction: column;
+	}
+	.about_scr{
+		order: 1;
+		margin: 0 auto;
+	}
+	.ab_text{
+		min-width: 320px;
+		text-align: center;
+		order: 2; 	
+	}
+	.about_img img{
+		max-width: 170px;
+		height: auto;
 	}
 	.title1{
 		text-align: center;
@@ -53,14 +72,14 @@ body {
 	.text1{
 		text-align: center;
 	}
-	.down{
+	.bottom{
 		flex-direction: column;
 	}
-	.down .contact_text{
+	.bottom .contact_text{
 		align-self: center;
 	}
-	.down .gate_img{
-		align-self: center;	
+	.bottom .gate_img{
+		align-self: center;		
 	}
 }
 
@@ -75,41 +94,41 @@ body {
 
 .header_img {
 	position: relative;
-	width: 505px;
+	max-width: 505px;
 	height: 620px;
 	top: 70px;
 	margin-left: 0px;
-	float: left;
+	float: left;	
+}
+
+.header_img img{
+	object-fit: cover;
 }
 
 .header_text {
 	position: relative;
-	width: 462px;
+	max-width: 462px;
 	height: 328px;
 	right: 0px;
 	top: 161px;
 	bottom: 56px;
 	display: flex;
 	align-items: center;
-	float: margin-left;
-	left: 63px;
+	float: right;
 }
 
 .title {
 	font-size: 32px;
 	line-height: 43.58px;
 	font-weight: 500;
-	align-items: center;
 	text-align: center;
 	text-transform: uppercase;
-	
 }
 
 .title1{
 	font-size: 32px;
 	line-height: 43.58px;
 	font-weight: 500;
-	align-items: left;
 	text-transform: uppercase;
 }
 
@@ -130,20 +149,25 @@ body {
 	margin-bottom: 40px;
 }
 
-.down{
+.bottom{
 	position: relative;
 	width: 100%;
-	min-height: 349px;
-	float: margin-right;
+	min-height: 279px;
+	float: right;
 	margin-right: 0;
+	padding-bottom: 40px;
 	display: flex;
 	justify-content: space-between;
+	
 }
 
 
-.main {
-	padding-top: 0px;
-	padding-bottom: 65px;
+.about_main{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	
 }
 
 .about{
@@ -151,31 +175,40 @@ body {
 	width: 295px;
 	height: 66px;
 	margin-right: 0px;
-	top: 40px;
+	padding-bottom: 0px;
 }
 
 .ab_text{
 	position: relative;
-	width: 700px;
-	height: 290px;
+	max-width: 650px;
+	height: 250px;
 	margin-top: 185px;
 	display: flex;
 	align-items: center;
-	text-align: justify;
-	float: margin-right;
+	float: left;
 	margin-right: 0;
 }
+
 .about_scr{
 	position: relative;
-	float: right;
+
+	
+	
+	
 	
 }
-.about_img img{
+
+.about_img {
 	position: relative;
-	margin-top: 160px;
-	width: 290px;
-	height: 290px;
-	float: right;	
+	margin-top: 40px;
+	max-width: 290px;
+	max-height: 290px;
+		
+}
+.about_img img{
+	width: 100%;
+	height: auto;
+		
 }
 
 .gate_img{
@@ -183,9 +216,12 @@ body {
 	margin-top: 0px;
 	margin-left: 0px;
 	width: 525px;
-	height: 349px;
+	height: 279px;
 	float: right;
 }
+
+
+
 
 .table{
 	position: relative;
@@ -225,11 +261,13 @@ body {
 .table_scroll{ overflow-x: auto;
 }
 
+
+
+
 .footer {
 	position: absolute;
 	width: 100%;
 	height: 65px;
-	left: 0;
 	bottom: 0;
 	background-color: #959C9A;
 }
