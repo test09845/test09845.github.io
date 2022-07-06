@@ -25,7 +25,7 @@ body {
 }
 @media (max-width:991.98px) {
 	.container{
-		max-width: 75%;
+		max-width: 85%;
 	}	
 	.header_img img{
 		max-width: 300px;
