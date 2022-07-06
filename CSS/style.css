@@ -19,15 +19,26 @@ body {
 	min-height: 100%;
 	overflow: hidden;
 }
-
 .main {
 	padding-top: 0px;
 	margin-bottom: 65px;
 }
-
-
-
-
+@media (max-width:991.98px) {
+	.container{
+		max-width: 75%;
+	}	
+	.header_img img{
+		max-width: 300px;
+		height: auto;
+		top: 20px;
+	}
+	.header_text {
+		max-width: 200px;
+		text-align: center;
+		align-self: center;
+		margin: 0px auto;
+	}
+}
 @media (max-width:767.98px) {
 	.container{
 		min-width: 500px;
@@ -82,7 +93,6 @@ body {
 		align-self: center;		
 	}
 }
-
 @media (max-width:575.98px) {
 	.container{
 		min-width: 320px;
@@ -130,7 +140,6 @@ body {
 		align-self: center;		
 	}
 }
-
 .header {
 	position:absolute;
 	left: 0px;
@@ -139,7 +148,6 @@ body {
 	height: 545px;
 	background-color: #959C9A;
 }
-
 .header_img {
 	position: relative;
 	max-width: 505px;
@@ -148,11 +156,9 @@ body {
 	margin-left: 0px;
 	float: left;	
 }
-
 .header_img img{
 	object-fit: cover;
 }
-
 .header_text {
 	position: relative;
 	max-width: 462px;
@@ -164,7 +170,6 @@ body {
 	align-items: center;
 	float: right;
 }
-
 .title {
 	font-size: 32px;
 	line-height: 43.58px;
@@ -172,14 +177,12 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 }
-
 .title1{
 	font-size: 32px;
 	line-height: 43.58px;
 	font-weight: 500;
 	text-transform: uppercase;
 }
-
 .text {
 	font-size: 21px;
 	font-weight: 400;
@@ -190,13 +193,11 @@ body {
 	margin-top: 43px;
 	
 }
-
 .text1 {
 	align-items: left;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
-
 .bottom{
 	position: relative;
 	width: 100%;
@@ -208,8 +209,6 @@ body {
 	justify-content: space-between;
 	
 }
-
-
 .about_main{
 	position: relative;
 	width: 100%;
@@ -217,7 +216,6 @@ body {
 	justify-content: space-between;
 	
 }
-
 .about{
 	position: relative;
 	width: 295px;
@@ -225,7 +223,6 @@ body {
 	margin-right: 0px;
 	padding-bottom: 0px;
 }
-
 .ab_text{
 	position: relative;
 	max-width: 650px;
@@ -236,16 +233,13 @@ body {
 	float: left;
 	margin-right: 0;
 }
-
 .about_scr{
 	position: relative;
-
 	
 	
 	
 	
 }
-
 .about_img {
 	position: relative;
 	margin-top: 40px;
@@ -258,7 +252,6 @@ body {
 	height: auto;
 		
 }
-
 .gate_img{
 	position: relative;
 	margin-top: 0px;
@@ -267,37 +260,28 @@ body {
 	height: 279px;
 	float: right;
 }
-
-
-
-
 .table{
 	position: relative;
 	width: 100%;
 	margin: 40px auto;
 	border-collapse: collapse;
 }
-
 .table thead{
 	text-align: center;
 	font-size: 21px;
 	text-transform: uppercase;
 	border: 2px solid #959C9A;
 }
-
 .table tbody{
 	text-align: center;
 }
-
 .table td:not(.td_2){
 	padding: 8px 15px;
 }
-
 .td_2{
 	text-align: left;
 	padding: 8px 30px;
 }
-
 .table td{
 	border: 1px solid #959C9A;
 }
@@ -305,13 +289,8 @@ body {
 	background-color: #dcdede;
 	transition: all 0.4s;	
 }
-
 .table_scroll{ overflow-x: auto;
 }
-
-
-
-
 .footer {
 	position: absolute;
 	width: 100%;
@@ -319,16 +298,13 @@ body {
 	bottom: 0;
 	background-color: #959C9A;
 }
-
 .icons{
 	position: relative;
 	width: 205px;
 	height: 65px;
 	margin: 0 0 0 -102.5px;
 	left: 50%;
-
 }
-
 .icons img{
 	width: 65px;
 	height: 65px;
